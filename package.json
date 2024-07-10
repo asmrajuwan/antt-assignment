@@ -1,0 +1,23 @@
+{
+    "name": "antt-robotics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "ts-node-dev src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.10",
+        "express": "^4.19.2",
+        "mongodb": "^6.8.0",
+        "mongoose": "^8.5.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.5.3",
+        "zod": "^3.23.8"
+    }
+}
